@@ -18,7 +18,7 @@ def build_heap(data):
             j = 2 * k +1
             if j < n - 1 and data[j] > data[j +1]:
                 j +=1
-            if vv <= data[j]:
+            if v <= data[j]:
                 heap = True
             else:
                 data[k] = data[j]
