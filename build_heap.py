@@ -26,6 +26,7 @@ def build_heap(data):
         define(data, n, i, s)
         i = i-1
     return swaps
+    
 
 
 def main():
